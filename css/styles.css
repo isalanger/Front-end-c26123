@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
 
 html {
   font-size: 62.5%;
 }
-
-
 
 body {
   font-family: "Saira Condensed", sans-serif;
@@ -16,8 +14,6 @@ body {
   background: darkslategray;
   color: aliceblue;
 
-
-  
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -53,7 +49,6 @@ h2 {
   margin: 3rem 0;
 }
 
-
 .btn {
   border: none;
   font-size: 1.6rem;
@@ -61,8 +56,6 @@ h2 {
   padding: 1.6rem;
   border-radius: 1rem;
 }
-
-
 
 header,
 footer {
@@ -102,11 +95,9 @@ footer .footer-list {
   padding: 1rem;
 }
 
-.footer-list li img{
-    width: 5rem;
- }
-
-
+.footer-list li img {
+  width: 5rem;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                   COLORES                                  */
@@ -132,15 +123,6 @@ footer .footer-list {
   color: #f2c66d;
 }
 
-
-
-
-
-
-
-
-
-
 /* -------------------------------------------------------------------------- */
 /*                                    HOME                                    */
 /* -------------------------------------------------------------------------- */
@@ -161,26 +143,25 @@ footer .footer-list {
 }
 
 .card {
-    margin: 1rem;
-    background-color: rgb(65, 109, 109); 
-    color: aliceblue;
-    width: 40rem;
-    padding-bottom: 2rem;
-    border-radius: 1rem;
-    overflow: hidden;
-     /* Nuevo: */
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     gap: 1rem;
-    }
+  margin: 1rem;
+  background-color: rgb(65, 109, 109);
+  color: aliceblue;
+  width: 40rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  /* Nuevo: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 
+.card img {
+  width: 100%;
+}
 
-  .card img{
-    width: 100%;
-    }
-
-  /* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
 /*                                  CONTACTO                                  */
 /* -------------------------------------------------------------------------- */
 .titulo-contacto {
@@ -197,27 +178,22 @@ footer .footer-list {
   border-radius: 1rem;
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* sutil */
+}
 
-  }
+.grupo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
 
-
-  .grupo-input {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    margin-bottom: 2rem;
-    }
-
-    .grupo-input input,
-    .grupo-input textarea {
-      border: none;
-      background-color: transparent;
-      border-bottom: solid 2px #2a1e35;
-      margin-bottom: 3rem;
-
-    }
-
-
+.grupo-input input,
+.grupo-input textarea {
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 2px #2a1e35;
+  margin-bottom: 3rem;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                MEDIA QUERIES                               */
@@ -228,4 +204,3 @@ footer .footer-list {
     flex-direction: column;
   }
 }
-
